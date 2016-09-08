@@ -14,6 +14,8 @@
 		F8DDFA961D81DE7200B14156 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8DDFA941D81DE7200B14156 /* LaunchScreen.xib */; };
 		F8DDFAA21D81DE7200B14156 /* Clinical_HandoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DDFAA11D81DE7200B14156 /* Clinical_HandoverTests.swift */; };
 		F8DDFAAC1D81DF6800B14156 /* ConsultantsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DDFAAB1D81DF6800B14156 /* ConsultantsTableViewController.swift */; };
+		F8DDFAAE1D81E01200B14156 /* ConsultantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DDFAAD1D81E01200B14156 /* ConsultantModel.swift */; };
+		F8DDFAB01D81F4AA00B14156 /* Sequelizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DDFAAF1D81F4AA00B14156 /* Sequelizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		F8DDFAA01D81DE7200B14156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8DDFAA11D81DE7200B14156 /* Clinical_HandoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clinical_HandoverTests.swift; sourceTree = "<group>"; };
 		F8DDFAAB1D81DF6800B14156 /* ConsultantsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultantsTableViewController.swift; sourceTree = "<group>"; };
+		F8DDFAAD1D81E01200B14156 /* ConsultantModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultantModel.swift; sourceTree = "<group>"; };
+		F8DDFAAF1D81F4AA00B14156 /* Sequelizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sequelizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				F8DDFA8F1D81DE7200B14156 /* Main.storyboard */,
+				F8DDFAAF1D81F4AA00B14156 /* Sequelizer.swift */,
+				F8DDFAAD1D81E01200B14156 /* ConsultantModel.swift */,
 				F8DDFAAB1D81DF6800B14156 /* ConsultantsTableViewController.swift */,
 				F8DDFA861D81DE7200B14156 /* Supporting Files */,
 			);
@@ -215,9 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8DDFAAE1D81E01200B14156 /* ConsultantModel.swift in Sources */,
 				F8DDFA891D81DE7200B14156 /* AppDelegate.swift in Sources */,
 				F8DDFAAC1D81DF6800B14156 /* ConsultantsTableViewController.swift in Sources */,
 				F8DDFA8C1D81DE7200B14156 /* Clinical_Handover.xcdatamodeld in Sources */,
+				F8DDFAB01D81F4AA00B14156 /* Sequelizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

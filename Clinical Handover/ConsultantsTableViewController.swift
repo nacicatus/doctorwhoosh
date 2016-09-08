@@ -8,10 +8,24 @@
 
 import UIKit
 
-class ConsultantsTableViewController: UITableViewController {
+class ConsultantsTableViewController: UITableViewController, SequelizerProtocol {
 
+    var feedItems: NSArray = NSArray()
+//    var selectedConsultant : ConsultantModel = ConsultantModel()
+    
+    @IBOutlet var listTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+//        listTableView.delegate = self
+//        listTableView.dataSource = self
+        
+        let sequelizer = Sequelizer()
+        sequelizer.delegate = self
+        sequelizer.downloadItems()
+        
+        
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -20,34 +34,32 @@ class ConsultantsTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func itemsDownloaded(items: NSArray) {
+        feedItems = items
+        self.listTableView.reloadData()
     }
+
 
     // MARK: - Table view data source
-
-    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        // #warning Potentially incomplete method implementation.
-        // Return the number of sections.
-        return 0
-    }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return 0
+        return feedItems.count
     }
 
-    /*
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! UITableViewCell
+        let identifier = "consultantCell"
+        let myCell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier(identifier, forIndexPath: indexPath) as! UITableViewCell
+        let item: ConsultantModel = feedItems[indexPath.row] as! ConsultantModel
 
-        // Configure the cell...
-
-        return cell
+        // Configure the cell
+        myCell.textLabel?.text = item.name
+        myCell.detailTextLabel?.text = item.department
+        return myCell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
