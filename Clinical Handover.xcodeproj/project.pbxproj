@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		F8DDFA891D81DE7200B14156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DDFA881D81DE7200B14156 /* AppDelegate.swift */; };
 		F8DDFA8C1D81DE7200B14156 /* Clinical_Handover.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8DDFA8A1D81DE7200B14156 /* Clinical_Handover.xcdatamodeld */; };
-		F8DDFA8E1D81DE7200B14156 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DDFA8D1D81DE7200B14156 /* ViewController.swift */; };
 		F8DDFA911D81DE7200B14156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8DDFA8F1D81DE7200B14156 /* Main.storyboard */; };
 		F8DDFA931D81DE7200B14156 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DDFA921D81DE7200B14156 /* Images.xcassets */; };
 		F8DDFA961D81DE7200B14156 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8DDFA941D81DE7200B14156 /* LaunchScreen.xib */; };
 		F8DDFAA21D81DE7200B14156 /* Clinical_HandoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DDFAA11D81DE7200B14156 /* Clinical_HandoverTests.swift */; };
+		F8DDFAAC1D81DF6800B14156 /* ConsultantsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DDFAAB1D81DF6800B14156 /* ConsultantsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +31,13 @@
 		F8DDFA871D81DE7200B14156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8DDFA881D81DE7200B14156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8DDFA8B1D81DE7200B14156 /* Clinical_Handover.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Clinical_Handover.xcdatamodel; sourceTree = "<group>"; };
-		F8DDFA8D1D81DE7200B14156 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F8DDFA901D81DE7200B14156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8DDFA921D81DE7200B14156 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F8DDFA951D81DE7200B14156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F8DDFA9B1D81DE7200B14156 /* Clinical HandoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clinical HandoverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DDFAA01D81DE7200B14156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8DDFAA11D81DE7200B14156 /* Clinical_HandoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clinical_HandoverTests.swift; sourceTree = "<group>"; };
+		F8DDFAAB1D81DF6800B14156 /* ConsultantsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultantsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +79,8 @@
 		F8DDFA851D81DE7100B14156 /* Clinical Handover */ = {
 			isa = PBXGroup;
 			children = (
-				F8DDFA881D81DE7200B14156 /* AppDelegate.swift */,
-				F8DDFA8D1D81DE7200B14156 /* ViewController.swift */,
 				F8DDFA8F1D81DE7200B14156 /* Main.storyboard */,
-				F8DDFA921D81DE7200B14156 /* Images.xcassets */,
-				F8DDFA941D81DE7200B14156 /* LaunchScreen.xib */,
-				F8DDFA8A1D81DE7200B14156 /* Clinical_Handover.xcdatamodeld */,
+				F8DDFAAB1D81DF6800B14156 /* ConsultantsTableViewController.swift */,
 				F8DDFA861D81DE7200B14156 /* Supporting Files */,
 			);
 			path = "Clinical Handover";
@@ -93,6 +89,10 @@
 		F8DDFA861D81DE7200B14156 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F8DDFA921D81DE7200B14156 /* Images.xcassets */,
+				F8DDFA941D81DE7200B14156 /* LaunchScreen.xib */,
+				F8DDFA8A1D81DE7200B14156 /* Clinical_Handover.xcdatamodeld */,
+				F8DDFA881D81DE7200B14156 /* AppDelegate.swift */,
 				F8DDFA871D81DE7200B14156 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -215,8 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8DDFA8E1D81DE7200B14156 /* ViewController.swift in Sources */,
 				F8DDFA891D81DE7200B14156 /* AppDelegate.swift in Sources */,
+				F8DDFAAC1D81DF6800B14156 /* ConsultantsTableViewController.swift in Sources */,
 				F8DDFA8C1D81DE7200B14156 /* Clinical_Handover.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
