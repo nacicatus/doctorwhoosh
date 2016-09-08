@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8DDFA891D81DE7200B14156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DDFA881D81DE7200B14156 /* AppDelegate.swift */; };
+		F8DDFA8C1D81DE7200B14156 /* Clinical_Handover.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8DDFA8A1D81DE7200B14156 /* Clinical_Handover.xcdatamodeld */; };
+		F8DDFA8E1D81DE7200B14156 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DDFA8D1D81DE7200B14156 /* ViewController.swift */; };
+		F8DDFA911D81DE7200B14156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8DDFA8F1D81DE7200B14156 /* Main.storyboard */; };
+		F8DDFA931D81DE7200B14156 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8DDFA921D81DE7200B14156 /* Images.xcassets */; };
+		F8DDFA961D81DE7200B14156 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8DDFA941D81DE7200B14156 /* LaunchScreen.xib */; };
+		F8DDFAA21D81DE7200B14156 /* Clinical_HandoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DDFAA11D81DE7200B14156 /* Clinical_HandoverTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8DDFA9C1D81DE7200B14156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8DDFA7B1D81DE7100B14156 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8DDFA821D81DE7100B14156;
+			remoteInfo = "Clinical Handover";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8DDFA831D81DE7100B14156 /* Clinical Handover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clinical Handover.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DDFA871D81DE7200B14156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8DDFA881D81DE7200B14156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8DDFA8B1D81DE7200B14156 /* Clinical_Handover.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Clinical_Handover.xcdatamodel; sourceTree = "<group>"; };
+		F8DDFA8D1D81DE7200B14156 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8DDFA901D81DE7200B14156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8DDFA921D81DE7200B14156 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8DDFA951D81DE7200B14156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F8DDFA9B1D81DE7200B14156 /* Clinical HandoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Clinical HandoverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DDFAA01D81DE7200B14156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8DDFAA11D81DE7200B14156 /* Clinical_HandoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clinical_HandoverTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8DDFA801D81DE7100B14156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DDFA981D81DE7200B14156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8DDFA7A1D81DE7100B14156 = {
+			isa = PBXGroup;
+			children = (
+				F8DDFA851D81DE7100B14156 /* Clinical Handover */,
+				F8DDFA9E1D81DE7200B14156 /* Clinical HandoverTests */,
+				F8DDFA841D81DE7100B14156 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8DDFA841D81DE7100B14156 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8DDFA831D81DE7100B14156 /* Clinical Handover.app */,
+				F8DDFA9B1D81DE7200B14156 /* Clinical HandoverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8DDFA851D81DE7100B14156 /* Clinical Handover */ = {
+			isa = PBXGroup;
+			children = (
+				F8DDFA881D81DE7200B14156 /* AppDelegate.swift */,
+				F8DDFA8D1D81DE7200B14156 /* ViewController.swift */,
+				F8DDFA8F1D81DE7200B14156 /* Main.storyboard */,
+				F8DDFA921D81DE7200B14156 /* Images.xcassets */,
+				F8DDFA941D81DE7200B14156 /* LaunchScreen.xib */,
+				F8DDFA8A1D81DE7200B14156 /* Clinical_Handover.xcdatamodeld */,
+				F8DDFA861D81DE7200B14156 /* Supporting Files */,
+			);
+			path = "Clinical Handover";
+			sourceTree = "<group>";
+		};
+		F8DDFA861D81DE7200B14156 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8DDFA871D81DE7200B14156 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8DDFA9E1D81DE7200B14156 /* Clinical HandoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8DDFAA11D81DE7200B14156 /* Clinical_HandoverTests.swift */,
+				F8DDFA9F1D81DE7200B14156 /* Supporting Files */,
+			);
+			path = "Clinical HandoverTests";
+			sourceTree = "<group>";
+		};
+		F8DDFA9F1D81DE7200B14156 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8DDFAA01D81DE7200B14156 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8DDFA821D81DE7100B14156 /* Clinical Handover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8DDFAA51D81DE7200B14156 /* Build configuration list for PBXNativeTarget "Clinical Handover" */;
+			buildPhases = (
+				F8DDFA7F1D81DE7100B14156 /* Sources */,
+				F8DDFA801D81DE7100B14156 /* Frameworks */,
+				F8DDFA811D81DE7100B14156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clinical Handover";
+			productName = "Clinical Handover";
+			productReference = F8DDFA831D81DE7100B14156 /* Clinical Handover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8DDFA9A1D81DE7200B14156 /* Clinical HandoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8DDFAA81D81DE7200B14156 /* Build configuration list for PBXNativeTarget "Clinical HandoverTests" */;
+			buildPhases = (
+				F8DDFA971D81DE7200B14156 /* Sources */,
+				F8DDFA981D81DE7200B14156 /* Frameworks */,
+				F8DDFA991D81DE7200B14156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8DDFA9D1D81DE7200B14156 /* PBXTargetDependency */,
+			);
+			name = "Clinical HandoverTests";
+			productName = "Clinical HandoverTests";
+			productReference = F8DDFA9B1D81DE7200B14156 /* Clinical HandoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8DDFA7B1D81DE7100B14156 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Saurabh Sikka";
+				TargetAttributes = {
+					F8DDFA821D81DE7100B14156 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F8DDFA9A1D81DE7200B14156 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F8DDFA821D81DE7100B14156;
+					};
+				};
+			};
+			buildConfigurationList = F8DDFA7E1D81DE7100B14156 /* Build configuration list for PBXProject "Clinical Handover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8DDFA7A1D81DE7100B14156;
+			productRefGroup = F8DDFA841D81DE7100B14156 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8DDFA821D81DE7100B14156 /* Clinical Handover */,
+				F8DDFA9A1D81DE7200B14156 /* Clinical HandoverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8DDFA811D81DE7100B14156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8DDFA911D81DE7200B14156 /* Main.storyboard in Resources */,
+				F8DDFA961D81DE7200B14156 /* LaunchScreen.xib in Resources */,
+				F8DDFA931D81DE7200B14156 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DDFA991D81DE7200B14156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8DDFA7F1D81DE7100B14156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8DDFA8E1D81DE7200B14156 /* ViewController.swift in Sources */,
+				F8DDFA891D81DE7200B14156 /* AppDelegate.swift in Sources */,
+				F8DDFA8C1D81DE7200B14156 /* Clinical_Handover.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8DDFA971D81DE7200B14156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8DDFAA21D81DE7200B14156 /* Clinical_HandoverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8DDFA9D1D81DE7200B14156 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8DDFA821D81DE7100B14156 /* Clinical Handover */;
+			targetProxy = F8DDFA9C1D81DE7200B14156 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8DDFA8F1D81DE7200B14156 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8DDFA901D81DE7200B14156 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8DDFA941D81DE7200B14156 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8DDFA951D81DE7200B14156 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8DDFAA31D81DE7200B14156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8DDFAA41D81DE7200B14156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8DDFAA61D81DE7200B14156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Clinical Handover/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8DDFAA71D81DE7200B14156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Clinical Handover/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8DDFAA91D81DE7200B14156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Clinical HandoverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clinical Handover.app/Clinical Handover";
+			};
+			name = Debug;
+		};
+		F8DDFAAA1D81DE7200B14156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Clinical HandoverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clinical Handover.app/Clinical Handover";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8DDFA7E1D81DE7100B14156 /* Build configuration list for PBXProject "Clinical Handover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8DDFAA31D81DE7200B14156 /* Debug */,
+				F8DDFAA41D81DE7200B14156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8DDFAA51D81DE7200B14156 /* Build configuration list for PBXNativeTarget "Clinical Handover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8DDFAA61D81DE7200B14156 /* Debug */,
+				F8DDFAA71D81DE7200B14156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8DDFAA81D81DE7200B14156 /* Build configuration list for PBXNativeTarget "Clinical HandoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8DDFAA91D81DE7200B14156 /* Debug */,
+				F8DDFAAA1D81DE7200B14156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F8DDFA8A1D81DE7200B14156 /* Clinical_Handover.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F8DDFA8B1D81DE7200B14156 /* Clinical_Handover.xcdatamodel */,
+			);
+			currentVersion = F8DDFA8B1D81DE7200B14156 /* Clinical_Handover.xcdatamodel */;
+			path = Clinical_Handover.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F8DDFA7B1D81DE7100B14156 /* Project object */;
+}
